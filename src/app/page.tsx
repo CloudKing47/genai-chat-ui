@@ -12,7 +12,7 @@ export default function Home() {
   ]);
   const [question, setQuestion] = useState("");
   const [loading, setLoading] = useState(false);
-  const chatRef = useRef(null);
+  const chatRef = useRef<HTMLDivElement | null>(null);
 
   const handleSubmit = async () => {
     if (!question.trim()) return;
