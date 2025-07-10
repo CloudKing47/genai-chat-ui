@@ -72,7 +72,7 @@ export const TextInput = styled.input`
   font-size: 0.875rem;
   outline: none;
   background: white;
-
+  color: black;
   &:focus {
     border-color: #2563eb;
     box-shadow: 0 0 0 1px #2563eb;
@@ -107,8 +107,6 @@ export const FileUploadBar = styled.div`
   align-items: center;
   gap: 0.75rem;
 `;
-
-
 
 export const UploadLabel = styled.label`
   position: relative;

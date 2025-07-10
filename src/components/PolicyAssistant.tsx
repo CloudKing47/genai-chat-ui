@@ -103,7 +103,7 @@ export default function PolicyAssistant() {
   return (
     <Container>
       <ChatBox>
-        <Header>📘 Company Policy Chat Assistant</Header>
+        <Header>Company Policy Chat Assistant</Header>
 
         <ChatContent ref={chatRef}>
           {messages.map((msg, idx) => (
